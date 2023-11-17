@@ -1,0 +1,55 @@
+body {
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.table-main {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.table-1 {
+    text-align: left;
+    border: 1px solid black;
+    border-collapse:collapse ;
+    padding: 20px 0px;
+    margin: 5px 5px;
+    width: 100%;
+
+ 
+}
+
+tr, td, tr, th {
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    font-size: 16px;
+}
+
+th{
+    font-size: 20px;
+}
+
+tr:nth-child(odd){
+    background-color:#E7F1D5;
+}
+
+tr:nth-child(even){
+    background-color: #E5FDBA;
+}
+
+th {
+    background-color:#FFFFFF;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
